@@ -1,6 +1,5 @@
 {
   "controlify.placeholder": "%1$s",
-
   "controlify.gui.carousel.title": "Controllers",
   "controlify.gui.carousel.no_controllers": "No controllers connected.",
   "controlify.gui.carousel.entry.settings": "Settings",
@@ -27,7 +26,6 @@
   "controlify.gui.profile_selection.delete.confirm.message": "Are you sure you want to delete %s? This cannot be undone.",
   "controlify.gui.carousel.donate": "Donate!",
   "controlify.gui.carousel.art_credit": "Controller art by %s.",
-
   "controlify.gui.global_settings.title": "Global Settings",
   "controlify.gui.preferred_profile": "Preferred startup profile",
   "controlify.gui.preferred_profile.tooltip": "The profile index Controlify should try to use the next time the game starts.",
@@ -75,7 +73,6 @@
   "controlify.gui.use_enhanced_steam_deck_driver.tooltip": "If enabled, Controlify will use an enhanced driver for the Steam Deck to improve compatibility and performance. This is experimental and may have bugs. This driver requires Decky Loader to be installed on your Deck.",
   "controlify.gui.copy_debug_dump": "Copy Debug Dump To Clipboard",
   "controlify.gui.copy_debug_dump.tooltip": "Copies a Controlify debug dump to your clipboard. You may be asked to use this if you are seeking support.",
-
   "controlify.gui.not_supported": "Your controller may not support %s.",
   "controlify.gui.new_options": "New This Update",
   "controlify.gui.new_options.tooltip": "A showcase of the new options in the latest updates.",
@@ -199,10 +196,8 @@
   "controlify.gui.show_keyboard.off": "Off",
   "controlify.gui.show_keyboard.controlify": "Controlify",
   "controlify.gui.show_keyboard.system": "System",
-
   "controlify.deadzone_group.controlify.left_stick": "Left Stick",
   "controlify.deadzone_group.controlify.right_stick": "Right Stick",
-
   "controlify.gui.radial_menu": "Radial Menu",
   "controlify.gui.radial_menu.tooltip": "Open up the radial menu to configure what each button does.",
   "controlify.gui.radial_menu.btn_text": "CONFIGURE",
@@ -221,17 +216,12 @@
   "controlify.gui.format.open": "OPEN URL",
   "controlify.gui.format.top": "Top",
   "controlify.gui.format.bottom": "Bottom",
-
   "controlify.gui.button": "Controller Settings...",
-
   "controlify.gui.controller_unavailable": "Controller unavailable and cannot be edited.",
-
   "controlify.gui.no_sdl.title": "Controlify Native Library Incompatible",
   "controlify.gui.no_sdl.message": "Controlify uses an extra native library to add more features for controller support. Your system does not support this library. You will be missing out on features such as:\n - controller vibration\n - enhanced controller identification\n - gyroscope controls",
-
   "controlify.new_features.title": "Controlify updated to %s!",
   "controlify.new_features.1.5.0": "Added a radial menu that can be configured to any action you want. You can find it in your controller settings.",
-
   "controlify.vibration_strength.controlify.master": "Master",
   "controlify.vibration_strength.controlify.master.tooltip": "The strength of all vibrations. Will also affect the strength of all other sources.",
   "controlify.vibration_strength.controlify.player": "Player",
@@ -246,7 +236,6 @@
   "controlify.vibration_strength.controlify.global_event.tooltip": "When a global event occurs such as wither spawn or ender dragon death.",
   "controlify.vibration_strength.controlify.misc": "Misc",
   "controlify.vibration_strength.controlify.misc.tooltip": "Miscellaneous effects.",
-
   "controlify.toast.vmouse_enabled.title": "Virtual Mouse Enabled",
   "controlify.toast.vmouse_enabled.description": "Controlify virtual mouse is now enabled for this screen.",
   "controlify.toast.vmouse_disabled.title": "Virtual Mouse Disabled",
@@ -277,23 +266,19 @@
   "controlify.toast.new_server.description": "Keyboard-like movement is enabled by default for server anti-cheat compatibility. To use analogue movement, open Controlify's global settings and whitelist this server.",
   "controlify.toast.fail_conf_load.title": "Controller config failed to load",
   "controlify.toast.fail_conf_load.desc": "Your controller's config has been reset because there was an error. Please report this and submit your latest.log.",
-
   "controlify.sdl3_onboarding.title": "Controlify Native Library",
   "controlify.sdl3_onboarding.message": "Many features in Controlify require an extra library that needs to be downloaded for your system. If you do not download this library, you will lose access to many features such as: controller vibration, gyroscope control, better controller identification. This is a seamless process and will only take a few seconds. If you choose no, you may change your mind later in Controlify settings, but you won't have access to these features in the meantime.",
   "controlify.sdl3_onboarding.message_mac": "Because you are on macOS ARM, this library is required for any sort of controller identification. Without it, all controllers will be unidentified. This will severely impact on user experience if you choose not to download them.",
   "controlify.sdl3_onboarding.question": "Would you like to download them?",
   "controlify.downloading_sdl.title": "Downloading SDL",
   "controlify.downloading_sdl.info": "Downloading an update to the native library Controlify uses. You are seeing this because you have chosen to download natives on first-launch.\nThis will only take a few seconds.",
-
   "controlify.controller_theme.default": "Default",
   "controlify.controller_theme.xbox_one": "Xbox",
   "controlify.controller_theme.dualshock4": "PS4",
   "controlify.controller_theme.steam_deck": "Steam Deck",
-
   "controlify.bluetooth_warning.title": "Controller connected via Bluetooth",
   "controlify.bluetooth_warning.desc": "Some controllers may be missing features when connected via Bluetooth. For example, HD haptics on DualSense. If you think you are missing a feature, try using USB before reporting.",
   "controlify.bluetooth_warning.dont_show": "Don't show again",
-
   "controlify.binding.controlify.walk_forward": "Walk Forward",
   "controlify.binding.controlify.walk_backward": "Walk Backward",
   "controlify.binding.controlify.strafe_left": "Strafe Left",
@@ -389,11 +374,9 @@
   "controlify.binding.controlify.gui_secondary_navi_left": "GUI Secondary Navi Left",
   "controlify.binding.controlify.gui_secondary_navi_right": "GUI Secondary Navi Right",
   "controlify.binding.controlify.clear_binding": "Clear Binding",
-
   "controlify.binding.voicechat.ptt_hold": "Push-To-Talk (Hold)",
   "controlify.binding.voicechat.ptt_toggle": "Push-To-Talk (Toggle)",
   "controlify.binding.voicechat.mute_microphone": "Mute Microphone",
-
   "controlify.input.controlify.button/south": "South Face",
   "controlify.input.controlify.button/east": "East Face",
   "controlify.input.controlify.button/west": "West Face",
@@ -433,7 +416,6 @@
   "controlify.input.controlify.button/left_paddle_2": "Left Paddle 2",
   "controlify.input.controlify.button/touchpad_1": "Touchpad 1 Press",
   "controlify.input.controlify.button/touchpad_2": "Touchpad 2 Press",
-
   "controlify.input.controlify.button/0": "Button #1",
   "controlify.input.controlify.button/1": "Button #2",
   "controlify.input.controlify.button/2": "Button #3",
@@ -474,18 +456,14 @@
   "controlify.input.controlify.axis/17": "Axis #18",
   "controlify.input.controlify.axis/18": "Axis #19",
   "controlify.input.controlify.axis/19": "Axis #20",
-
   "controlify.input.controlify.steam_deck.controlify.button/touchpad_1": "Left Touchpad Click",
   "controlify.input.controlify.steam_deck.controlify.button/touchpad_2": "Right Touchpad Click",
   "controlify.input.controlify.dualsense.controlify.button/touchpad_1": "Touchpad Click",
   "controlify.input.controlify.dualshock4.controlify.button/touchpad_1": "Touchpad Click",
-
   "controlify.binding_category.gui": "GUI",
   "controlify.binding_category.vmouse": "Virtual Mouse",
   "controlify.binding_category.debug": "Debug",
-
   "controlify.custom_binding.vanilla_description": "Automatically generated key binding from Fabric API.",
-
   "controlify.guide.ingame.inventory": "Open Inventory",
   "controlify.guide.ingame.swim_up": "Swim Up",
   "controlify.guide.ingame.start_elytra": "Open Elytra Wings",
@@ -542,7 +520,6 @@
   "controlify.guide.ingame.dash": "Dash",
   "controlify.guide.ingame.climb_up": "Climb Up",
   "controlify.guide.ingame.climb_down": "Climb Down",
-
   "controlify.guide.container.place_all": "Place All",
   "controlify.guide.container.place_one": "Place",
   "controlify.guide.container.swap": "Swap",
@@ -553,7 +530,6 @@
   "controlify.guide.container.take_one": "Place One",
   "controlify.guide.container.quick_move": "Quick Move",
   "controlify.guide.container.take_from_bundle": "Take From Bundle",
-
   "controlify.radial_menu.configure_hint": "Configure actions in the controller settings.",
   "controlify.radial_menu.empty": "No radial actions configured.",
   "controlify.radial_menu.page": "Page %s / %s",
@@ -583,7 +559,6 @@
   "controlify.radial.debug.reload_packs": "Reload Resource Packs",
   "controlify.radial.debug.clear_chat": "Clear Chat",
   "controlify.radial.debug.profile": "Start/Stop Profiling",
-
   "controlify.controller_submission.title": "Unknown Controller Submission",
   "controlify.controller_submission.message": "Please submit some of your controller info to Controlify's database to get it added in a future update.\n\nControlify sends the following information:\n- Your controller's vendor & product IDs\n- Your controller's GUID\n- The name of your controller (in the box below)\n- The version of Controlify you are currently on\n\nThis is completely anonymous and doesn't store any of your personal or account information.",
   "controlify.controller_submission.operational_checkbox": "Does your controller work with Controlify?",
@@ -592,28 +567,23 @@
   "controlify.controller_submission.name_hint": "Controller name",
   "controlify.controller_submission.name_narration": "Controller name input field",
   "controlify.controller_submission.invalid_name": "Invalid controller name. Use only letters, numbers and spaces.",
-
   "controlify.error.hid": "Controller Detection Disabled",
   "controlify.error.hid.desc": "Controller identification failed, so any controller config changes will not persist. Check logs for more info.",
-
   "controlify.battery_level.unknown": "Unknown",
   "controlify.battery_level.empty": "Empty",
   "controlify.battery_level.low": "Low",
   "controlify.battery_level.medium": "Medium",
   "controlify.battery_level.high": "High",
   "controlify.battery_level.full": "Full",
-
   "controlify.guide_verbosity.full": "Full",
   "controlify.guide_verbosity.reduced": "Reduced",
   "controlify.guide_verbosity.minimal": "Minimal",
-
   "controlify.command.vibratecontroller.static.single": "Vibrated controller of 1 player.",
   "controlify.command.vibratecontroller.static.multiple": "Vibrated controller of %s players.",
   "controlify.command.vibratecontroller.pos.single": "Vibrated controller of 1 player at %s, %s, %s.",
   "controlify.command.vibratecontroller.pos.multiple": "Vibrated controller of %s players at %s, %s, %s.",
   "controlify.command.vibratecontroller.entity.single": "Vibrated controller of 1 player from %s's position.",
   "controlify.command.vibratecontroller.entity.multiple": "Vibrated controller of %s players from %s's position.",
-
   "controlify.gui.mapping_maker.title": "Mapping Creator",
   "controlify.gui.mapping_maker.go_back": "I made a mistake",
   "controlify.gui.mapping_maker.go_back.tooltip": "Go back to the previous step.",
@@ -644,36 +614,28 @@
   "controlify.gui.mapping_maker.instruction.right_stick": "'right stick'",
   "controlify.gui.mapping_maker.instruction.left_trigger": "Push down the left trigger and quickly release it.",
   "controlify.gui.mapping_maker.instruction.right_trigger": "Push down the right trigger and quickly release it.",
-
   "controlify.ask_to_map_controller.title": "Map Controller?",
   "controlify.ask_to_map_controller.message": "It looks like your controller may not be a gamepad, so the default controls might not work, and you might get missing textures in input guides. Mapping your controller will walk you through converting your controller inputs into a regular gamepad standard.",
   "controlify.ask_to_map_controller.yes": "Map Now",
   "controlify.ask_to_map_controller.no": "Maybe Later",
-
   "controlify.steam_deck.desktop_mode_warning.title": "Desktop Mode Detected",
   "controlify.steam_deck.desktop_mode_warning.message": "It is essential to switch to Gaming Mode on your Steam Deck. Controlify has native support for your Deck, but Desktop mode attempts to convert your Deck input into a keyboard and mouse.",
   "controlify.steam_deck.decky_required_warning.title": "Decky Required",
   "controlify.steam_deck.decky_required_warning.message": "Controlify requires Decky Loader to be installed on your Steam Deck to be able to use the enhanced Steam Deck driver. Decky Loader allows you to install plugins to your Steam Deck Quick-Access-Menu, but also allows Controlify to create a direct communication channel with your Deck. You can use Controlify without, but you will lose access to: back-buttons, touchpads, gyro, auto game pause, screenshot integration.\n\nTo follow an install guide, go to %s",
   "controlify.steam_deck.no_driver": "Enhanced steam deck driver not running",
-
   "controlify.compat.svc.hold": "(Hold)",
   "controlify.compat.svc.toggle": "(Toggle)",
-
   "controlify.hat_state.up": "Up",
   "controlify.hat_state.down": "Down",
   "controlify.hat_state.left": "Left",
   "controlify.hat_state.right": "Right",
-
   "controlify.joystick_mapping.unmapped.axis": "Axis #%s",
   "controlify.joystick_mapping.unmapped.button": "Button #%s",
   "controlify.joystick_mapping.unmapped.hat": "Hat #%s",
   "controlify.joystick_mapping.unmapped.axis_direction.negative": "(Negative)",
   "controlify.joystick_mapping.unmapped.axis_direction.positive": "(Positive)",
-
-
   "controlify.extra_pack.legacy_console.name": "Legacy Console",
   "controlify.extra_pack.legacy_console.desc": "Applies Legacy Console-style bindings, glyphs, settings, and button guides.",
-
   "controlify.keyboard.special.shift": "Shift",
   "controlify.keyboard.special.shift_lock": "Shift Lock",
   "controlify.keyboard.special.enter": "Enter",
@@ -686,18 +648,16 @@
   "controlify.keyboard.special.copy_all": "Copy All",
   "controlify.keyboard.special.paste": "Paste",
   "controlify.keyboard.special.previous_layout": "Previous Layout",
-
   "controlify.tutorial.look.description": "Use your mouse or controller to turn",
-
   "controlify.hint.keyboard_cursor_movement": "Use %s and %s to move the text cursor",
   "controlify.hint.command_suggester": "Use %s and %s to navigate through command suggestions, and %s to select them",
   "controlify.hint.edit_box_keyboard": "Press %s to open keyboard",
   "controlify.hint.sign_line_change": "Use %s and %s to change lines",
-
   "controlify.input_curves.linear": "Linear",
   "controlify.input_curves.gentle": "Gentle (exp 1.5)",
   "controlify.input_curves.standard": "Standard (exp 2.0)",
   "controlify.input_curves.strong": "Strong (exp 2.5)",
   "controlify.input_curves.precision_cubic": "Cubic (blend 0.5)",
-  "controlify.input_curves.s_curve": "S-Curve"
+  "controlify.input_curves.s_curve": "S-Curve",
+  "controlify.binding.plasmovoice.settings": "Plasmo Voice Settings"
 }
