@@ -21,6 +21,7 @@ public class ControlifyCompat {
 
 	public static final String IMMEDIATELY_FAST = "immediatelyfast";
 	public static final String SIMPLE_VOICE_CHAT = "voicechat";
+	public static final String PLASMO_VOICE = "plasmovoice";
 	public static final String FANCY_MENU = "fancymenu";
 
 	public static void init() {
@@ -34,6 +35,15 @@ public class ControlifyCompat {
 			disabledMods.add(SIMPLE_VOICE_CHAT);
 		}
 		//?}
+
+		try {
+			wrapCompatCall(
+					PLASMO_VOICE,
+					dev.isxander.controlify.compatibility.plasmovoice.PlasmoVoiceCompat::init
+			);
+		} catch (NoClassDefFoundError e) {
+			disabledMods.add(PLASMO_VOICE);
+		}
 
 		//? if fancy_menu {
 		try {
