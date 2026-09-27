@@ -64,7 +64,10 @@ public enum Platform {
 		String osName = System.getProperty("os.name");
 
 		if (osName.startsWith("Linux")) {
-			if ("dalvik".equalsIgnoreCase(System.getProperty("java.vm.name")) || System.getenv("POJAV_NATIVEDIR") != null) {
+			if ("dalvik".equalsIgnoreCase(System.getProperty("java.vm.name"))
+					|| System.getenv("POJAV_NATIVEDIR") != null
+					|| System.getenv("ANDROID_ROOT") != null
+					|| System.getenv("ANDROID_DATA") != null) {
 				current = ANDROID;
 			} else {
 				current = LINUX;

@@ -539,5 +539,6 @@
   "controlify.input_curves.standard": "Estándar (exp 2.0)",
   "controlify.input_curves.strong": "Fuerte (exp 2.5)",
   "controlify.input_curves.precision_cubic": "Cúbica (mezcla 0.5)",
-  "controlify.input_curves.s_curve": "Curva S"
+  "controlify.input_curves.s_curve": "Curva S",
+  "controlify.binding.plasmovoice.settings": "Ajustes de Plasmo Voice"
 }
