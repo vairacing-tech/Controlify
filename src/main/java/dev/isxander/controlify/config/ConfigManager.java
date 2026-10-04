@@ -70,6 +70,7 @@ public class ConfigManager implements AutoCloseable {
 	public void loadOrDefault() {
 		try {
 			Files.createDirectories(configDirectory);
+			ConfigPermissionUtil.repairConfigDirectory(configDirectory, sharedPath, legacyPath);
 			if (Files.exists(sharedPath)) {
 				loadShared();
 			} else if (Files.exists(legacyPath)) {
@@ -394,7 +395,7 @@ public class ConfigManager implements AutoCloseable {
 		encoded.entrySet().forEach(entry -> root.add(entry.getKey(), entry.getValue()));
 
 		String json = new GsonBuilder().setPrettyPrinting().serializeNulls().create().toJson(root);
-		Path temporary = Files.createTempFile(configDirectory, path.getFileName().toString(), ".tmp");
+		Path temporary = ConfigPermissionUtil.createTempConfigFile(configDirectory, path);
 		try {
 			Files.writeString(temporary, json);
 			try {
